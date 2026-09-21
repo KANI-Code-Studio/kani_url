@@ -1,0 +1,32 @@
+{
+  "rewrites": [
+    {
+      "source": "/course/iot-cohort-1",
+      "destination": "https://iot-cohort-1.vercel.app/"
+    },
+    {
+      "source": "/course/iot-cohort-1/:match*",
+      "destination": "https://iot-cohort-1.vercel.app/:match*"
+    },
+    {
+      "source": "/course/fullstack-cohort-1",
+      "destination": "https://fullstack-cohort-1.vercel.app/"
+    },
+    {
+      "source": "/course/fullstack-cohort-1/:match*",
+      "destination": "https://fullstack-cohort-1.vercel.app/:match*"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
+    },
+    {
+      "source": "/:match*",
+      "destination": "/index.html"
+    }
+  ]
+}
